@@ -1,0 +1,75 @@
+/*
+theme 1:https://coolors.co/ff8811-f4d06f-fff8f0-9dd9d2-554686
+theme 2:https://coolors.co/3e3c3d-41292c-5f1c46-7a154b-79012b
+theme 3:
+*/
+html{
+	height:100%;
+}
+
+body{
+	/*padding-top:80px;*/
+	display:flex;
+	justify-content:center;
+	align-itmes:center;
+	height:100%;
+}
+
+
+
+main{
+	/*border:3px solid black;
+	background-color:yellow;*/
+	width:700px;
+	height:500px;
+	display:grid;
+	grid-template-rows:100px auto 50px;
+}
+
+#menu{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
+	grid-gap:12px;
+}
+
+#menu > input{
+	background-color:aqua;
+	color:maroon;
+	font-weight:bold;
+	font-size:18px;
+	border-radius:10px;
+}
+
+#menu>input:hover{
+	background-color:red;
+	color:yellow;
+}
+
+#themebtns{
+	display:grid;
+	grid-template-columns:2fr 2fr 2fr;
+	padding:10px;
+	grid-gap:12px;
+}
+
+#themebtns>input:hover{
+	background-color:pink;
+	color:orange;
+}
+
+#themebtns > input{
+	background-color:red;
+	color:yellow;
+	font-weight:bold;
+	font-size:15px;
+	border-radius:15px;
+}
+
+section{
+	border:3px solid red;
+	background-color:aliceblue;
+	text-align:center;
+	border-radius:30px;
+	padding:20px;
+}
